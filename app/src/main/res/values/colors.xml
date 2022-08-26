@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="colorPrimary">#058ce6</color>
+    <color name="colorPrimarynew">#ffcc00</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="bg_color_for_card">#3c5c91</color>
+    <color name="bg_color_for_down_card">#2c4369</color>
+    <color name="colorAccent">#9b2424</color>
+    <color name="blue">#0000FF</color>
+    <color name="yellow">#f8ff0f</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="orange">#ff6600</color>
+    <color name="yellowlight">#ffc400</color>
+    <color name="brown">#FF6600</color>
+    <color name="sort_tab_text">#ffa52e</color>
+    <color name="screenWhiteBackground">#ff5722</color>
+    <color name="homescreen">#ffffff</color>
+    <color name="olive">#808000</color>
+    <color name="naviy">#000080</color>
+    <color name="purple">#800080</color>
+    <color name="light_blue">#008aff</color>
+
+
+
+    <color name="color_one">#fb7268</color>
+    <color name="color_white">#ededf2</color>
+    <color name="color_two">#E3E0E0</color>
+
+    <color name="cases">#FFA726</color>
+    <color name="recovered">#66BB6A</color>
+    <color name="deaths">#EF5350</color>
+    <color name="active">#29B6F6</color>
+
+
+    <color name="buttonColor">#0F9D58</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="underline">#bfbfbf</color>
+    <color name="grey">#4E4E4E</color>
+
+
+
+</resources>

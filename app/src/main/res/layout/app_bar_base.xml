@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_border"
+        android:theme="@style/FullscreenTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            app:popupTheme="@style/FullscreenTheme.PopupOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_weight="0.3"
+                    android:clickable="false">
+
+                    <ImageView
+                        android:id="@+id/img_menuOption"
+                        android:layout_width="23dp"
+                        android:layout_height="28dp"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:clickable="true"
+                        android:src="@drawable/ic_menu" />
+                    <SearchView
+                        android:id="@+id/searchview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:visibility="gone"
+                        android:iconifiedByDefault="true"
+                        android:layout_marginTop="-5dp"
+                        app:layout_anchor="@+id/appBarLayout"
+                        app:layout_anchorGravity="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_cart"
+                    android:layout_weight="1.7"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/img_menu_add_cart"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/trip"
+                        android:foregroundTint="@color/white" />
+                    <TextView
+                        android:id="@+id/txt_card_value"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorAccent"
+                        android:text="0"
+                        android:layout_marginTop="-10dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/transparent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/img_menu_prac_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="16dp"
+        tools:ignore="VectorDrawableCompat"
+        app:borderWidth="0dp"
+        android:visibility="gone"
+        android:backgroundTint="@color/white"
+        app:maxImageSize="58dp"
+        />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Drop me</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="error_invalid_password">Invalid Password</string>
+    <string name="error_field_required">Fields Required</string>
+    <string name="number_required">Enter Valid 10 Digit Number</string>
+    <string name="error_invalid_email">Invalid Email</string>
+</resources>
